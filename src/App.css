@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+.game {
+  max-width: 480px;
+  margin: 48px auto;
+  text-align: center;
+}
+
+.game h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 3px;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  background: #161b22;
+  color: #e6edf3;
+  font-size: 34px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.square:hover {
+  border-color: #58a6ff;
+}
+
+.square.winning {
+  background: #1f6feb;
+  color: #fff;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+.status {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.history-btn {
+  margin: 2px 0;
+  padding: 4px 12px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  background: #161b22;
+  color: #58a6ff;
+  cursor: pointer;
+}
+
+.history-btn:hover {
+  border-color: #58a6ff;
+}
